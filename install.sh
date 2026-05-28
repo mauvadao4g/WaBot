@@ -15,6 +15,7 @@ if ! command -v node &> /dev/null; then
     msg "Instalando Node.js 18..."
     curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
     apt install -y nodejs
+    apt install -y npm 
 fi
 
 # Instalar dependências do sistema
